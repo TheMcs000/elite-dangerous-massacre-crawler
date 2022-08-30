@@ -1,0 +1,21 @@
+{
+    "name": "mail-api",
+    "version": "1.0.0",
+    "scripts": {
+        "watch": "tsc --watch --preserveWatchOutput",
+        "build": "tsc --build",
+        "start": "node index.js",
+        "dev": "tsc --watch --preserveWatchOutput"
+    },
+    "dependencies": {
+        "puppeteer": "^13.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.2",
+        "@types/puppeteer": "^5.4.4",
+        "@typescript-eslint/eslint-plugin": "^5.8.0",
+        "@typescript-eslint/parser": "^5.8.0",
+        "eslint": "^8.5.0",
+        "typescript": "^4.5.4"
+    }
+}
